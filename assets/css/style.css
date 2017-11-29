@@ -1,0 +1,33 @@
+/* css file for trivia game */
+
+
+body {
+    background-image: url("../images/stacks3.png");
+    background-color: black;
+}
+
+/* ID's */
+
+#logo {
+    display: block;
+    /* margin-left: 553px; */
+    margin-top: 20px;
+    text-align: center;
+}
+
+#trivia {
+    font-family: 'Press Start 2P', cursive;
+    color: #ffcb5f;
+    text-decoration-color: black;
+    text-align: center;
+}
+
+/* CLASSES */
+
+.jumbotron {
+    margin: auto;
+    text-align: center;
+    background: rgb(255, 255, 255); /* This is for ie8 and below */
+    background: rgba(255, 255, 255, 0.5);
+    color: black;
+}
